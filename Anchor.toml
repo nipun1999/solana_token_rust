@@ -1,0 +1,12 @@
+[programs.localnet]
+personal_token = "8qYbSBp2inJWqU6Sq6j5waTbJewdLLBFsabuNoAyQe4k"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/Users/nipun/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
